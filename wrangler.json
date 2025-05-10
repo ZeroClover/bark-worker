@@ -5,6 +5,13 @@
     "compatibility_flags": [
         "nodejs_compat"
     ],
+    "workers_dev": false,
+    "routes": [
+        {
+            "pattern": "bark.api.zeroclover.io",
+            "custom_domain": true
+        }
+    ],
     "observability": {
         "enabled": true
     },
